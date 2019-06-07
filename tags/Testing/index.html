@@ -392,11 +392,13 @@
       <i class="fa fa-pencil"></i>
       博客全站共： <span class="post-count"></span> 字
     </span>
+</div>
+
 	<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
 <script>
     var now = new Date();
     function createtime() {
-        var grt= new Date("07/21/2018 00:00:00");//此处修改你的建站时间或者网站上线时间
+        var grt= new Date("06/06/2019 23:30:30");
         now.setTime(now.getTime()+250);
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
@@ -409,7 +411,7 @@
     }
 setInterval("createtime()",250);
 </script>
-</div>
+
 
 
 
@@ -592,3 +594,4 @@ setInterval("createtime()",250);
 
 </body>
 </html>
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
