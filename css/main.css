@@ -16,11 +16,11 @@ keyframes heartAnimate 50%,
 keyframes heartAnimate 70% {
   transform: scale(1.1);
 }
-#heart {
+#animate {
   animation: heartAnimate 1.33s ease-in-out infinite;
 }
 .with-love {
-  color: #ff7171;
+  color: #808080;
 }
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -1843,7 +1843,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #202b85;
+  background: #60ff73;
 }
 .links-of-blogroll {
   font-size: 13px;
